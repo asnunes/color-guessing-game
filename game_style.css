@@ -1,0 +1,78 @@
+body{
+	background-color: #232323;
+	font-family: "Avenir", "Montserrat";
+	margin: 0px;
+}
+
+h1{
+	background-color: #16a085;
+	color: #ecf0f1;
+	font-size: 2em;
+	font-weight: 400;
+	letter-spacing: 3px;
+	line-height: 1.1;
+	margin: 0px;
+	padding: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+}
+
+#colorDisplay{
+	font-weight: bold;
+}
+
+#navbar {
+	background-color: #ecf0f1;
+	margin-bottom: 60px;
+	text-align: center;
+	width: 100%;
+}
+
+#msg{
+	display: inline-block;
+	widht: 20%;
+}
+
+.btn-default{
+	background-color: #ecf0f1;
+	border-width: 0px;
+	color: #34495e;
+	font-weight: bold;
+	height: 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	/*transition in all properties changes*/
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+
+.btn-default:hover, .selected{
+	background-color: #34495e;
+	color: #ecf0f1;
+}
+
+#msg{
+	width: 300px;
+}
+
+#container{
+	width: 35%;
+	/*to center*/
+	margin: 0 auto; 
+}
+
+.rectangle{
+	float: left;
+	background-color: #232323;
+	border-radius: 50%;
+	margin: 1.66%;
+	padding-bottom: 30%;
+	width: 30%;
+	transition: background-color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+}
